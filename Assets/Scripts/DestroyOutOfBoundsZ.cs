@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOutOfBounds : MonoBehaviour
+public class DestroyOutOfBoundsZ : MonoBehaviour
 {
     private float topBound = 30;
     private float lowerBound = -10;
@@ -14,8 +14,6 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if (transform.position.z < lowerBound)
         {
-            //if an animal escapes you lose the game
-            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }
