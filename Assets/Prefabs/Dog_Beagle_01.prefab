@@ -2094,10 +2094,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2698594796210867180}
   - component: {fileID: 2698594796201296408}
-  - component: {fileID: 807345859159145445}
   - component: {fileID: 5154439042164899204}
   - component: {fileID: 3175507714085107694}
   - component: {fileID: 1222032571816206746}
+  - component: {fileID: 114093862784640304}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -2175,19 +2175,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &807345859159145445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2698594796210520762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf29b54f4a8efbe41a8217c00d77a6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &5154439042164899204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2225,6 +2212,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6932a2aaaad33bc4d9d960f8f70060d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114093862784640304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2698594796210520762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf29b54f4a8efbe41a8217c00d77a6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
 --- !u!1 &2698594796210521298
 GameObject:
   m_ObjectHideFlags: 0
