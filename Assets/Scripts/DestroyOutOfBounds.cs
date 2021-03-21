@@ -14,6 +14,8 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if (transform.position.z < lowerBound)
         {
+            //if an animal escapes you lose the game
+            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }
